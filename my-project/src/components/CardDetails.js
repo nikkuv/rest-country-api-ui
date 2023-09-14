@@ -9,7 +9,7 @@ const CardDetails = ( {countryInfo} ) => {
     topLevelDomain,currencies,languages,borders} = countryInfo
     
     return (
-        <div className = 'bg-secondary h-full'>
+        <div className = 'bg-secondary min-h-screen'>
             <Route path="/" component= {BackButton}></Route>
             <div className= 'lg:flex container m-auto'>
                 <div className = 'flex-1 p-8'>
